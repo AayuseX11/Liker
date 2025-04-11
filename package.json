@@ -4,7 +4,6 @@
   "description": "Free Fire Auto Liker using Puppeteer",
   "main": "ff-auto-liker-render.js",
   "scripts": {
-    "render-build": "./render-build.sh",
     "start": "node ff-auto-liker-render.js"
   },
   "dependencies": {
