@@ -1,4 +1,14 @@
-"scripts": {
-  "render-build": "./render-build.sh",
-  "start": "node ff-auto-liker-render.js"
+{
+  "name": "ff-auto-liker",
+  "version": "1.0.0",
+  "description": "Free Fire Auto Liker using Puppeteer",
+  "main": "ff-auto-liker-render.js",
+  "scripts": {
+    "render-build": "./render-build.sh",
+    "start": "node ff-auto-liker-render.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
+  }
 }
